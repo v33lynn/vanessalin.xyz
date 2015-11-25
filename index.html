@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title> Vanessa Lin | </title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="js/jquery.planetarium.js"></script>
+  <script src="js/bootstrap.js"></script>
+
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/planetarium.css">
+
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+  <script type="text/javascript">
+      $(document).ready(function(){
+        $('#container img').click(function () {
+          var temp = $(this).attr('src');
+          $(this).attr('src', $(this).attr('data-alt-src'));
+          $(this).attr('data-alt-src', temp);
+        });
+      });
+    </script>​
+
+  <nav data-layout-element="navigation"> </nav>
+
+</head>
+
+<body>
+
+<div class="container"> 
+
+  <div class="jumbotron">
+    <img src="picz/avasunset2.55.jpg" alt="avasunset" class="img-responsive">
+    <hr>
+    <img src="picz/avatar.jpg" alt="avatar" class="img-circle pull-left responsive"> <h1> Vanessa Lin | Web Developer </h1> 
+    <h2> SF | LA </h2> 
+
+    <blockquote> <i> Life only exists in your eyes; You can make it as big or as small as you want. </i> <cite> -F.Scott Fitzgerald </cite> 
+
+     <div class="earth planet" data-ptr-autospin="2600ms" data-ptr-float data-ptr-glow="0 0 50px #fff" > </div>
+
+  <script type="text/javascript">
+  $(document).ready(function() {
+      $(".planet").planetarium({
+          autospin: "1000ms", 
+          angle: "20deg",   
+          glow: "rgba(255, 255, 255, 0.34902) 0px 0px 50px, inset 33px 20px 50px rgba(0,0,0,0.5)", 
+          pattern: "picz/texture-earth.jpg", 
+          size: "100x100",
+          float: true,
+          space: "body",
+          ring: false, 
+          ringColor: "#fff",
+          ringAngle: "20deg",
+      });
+    });
+ </script>
+
+    </blockquote text-align="left">
+  </div>
+
+  <div class="row">
+    <div class="col-sm-3">
+      <h3> Coding Project 1 | Ruby/Rails </h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+    </div>
+
+    <div class="col-sm-3">
+      <h3> Project 2 | PHP - Pokes </h3>
+
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+    </div>
+
+    <div class="col-sm-6">
+       <href> <h3> Project 2 | MEAN or LAMP </h3> </href>        
+        <div id="container">​
+        <img src="picz/ideaz11.jpg" data-alt-src="picz/rubikz1.jpg" class="img-responsive" >​<br>
+        <img src="picz/ideaz2.jpg" data-alt-src="picz/rubikz2.jpg" class="img-responsive" >​ <br>
+        <img src="picz/ideaz3.jpg" data-alt-src="picz/rubikz3.jpg" class="img-responsive">​ <br> <br>
+        <a href=""> <u> Check out my personal Tattoo & Art sketches here! </u> </a>
+      </div>​
+    </div>
+  </div>
+
+  <hr>
+    
+  <div footer> 
+    <div class="footer-wrapper">
+     <ul>
+        <li> Contact Me ! </li>
+        <li> LinkedIn: vanessamlin | </li>
+        <li> github: v33lynn | </li>
+        <li> wordpress: | </li>
+      </ul>
+    </div>
+  </footer>
+
+</div>
+</body>
+
+</html>
