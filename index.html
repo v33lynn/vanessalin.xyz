@@ -25,24 +25,62 @@
       });
     </script>​
 
-  <nav data-layout-element="navigation"> </nav>
-
 </head>
 
 <body>
 
 <div class="container"> 
 
+<style>
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    }
+
+li {
+    float: left;
+    }
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    }
+
+li a:hover:not(.active) {
+    background-color: #111;
+    }
+
+.active {
+    background-color: #4CAF50;
+    }
+</style>
+</head>
+<body>
+
+<ul>
+  <li><a class="active" href="#home">Home</a></li>
+  <li><a href="#news">News</a></li>
+  <li><a href="#contact">Contact</a></li>
+  <li><a href="#about">About</a></li>
+</ul>
+
+
+
   <div class="jumbotron">
-    <img src="picz/avasunset2.55.jpg" alt="avasunset" class="img-responsive">
+    <img src="picz/up_voyage1.jpg" alt="upvoyage" class="img-responsive">
     <hr>
-    <img src="picz/avatar.jpg" alt="avatar" class="img-circle pull-left responsive"> <h1> Vanessa Lin | Web Developer </h1> 
+    <h1> Vanessa Lin | Web Developer </h1> 
     <h2> SF | LA </h2> 
 
-    <blockquote> <i> Life only exists in your eyes; You can make it as big or as small as you want. </i> <cite> -F.Scott Fitzgerald </cite> </blockquote>
-     <div class="earth planet" data-ptr-autospin="2600ms" data-ptr-float data-ptr-glow="0 0 50px #fff" > </div>
+   <div class="earth planet" data-ptr-autospin="2600ms" data-ptr-float data-ptr-glow="0 0 50px #fff" > </div>
 
-  <script type="text/javascript">
+   <script type="text/javascript">
   $(document).ready(function() {
       $(".planet").planetarium({
           autospin: "1000ms", 
@@ -57,50 +95,52 @@
           ringAngle: "20deg",
       });
     });
- </script>
+  </script>
 
-    </blockquote text-align="left">
-  </div>
+    <blockquote> <i> Life only exists in your eyes; You can make it as big or as small as you want. </i> <cite> 
+    -F.Scott Fitzgerald </cite> </blockquote>
 
   <div class="row">
-    <div class="col-sm-3">
-      <h3> Coding Project 1 | Ruby/Rails </h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
-    </div>
-
-    <div class="col-sm-3">
-      <h3> Project 2 | PHP - Pokes </h3>
-
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
-    </div>
 
     <div class="col-sm-6">
-       <href> <h3> Project 2 | MEAN or LAMP </h3> </href>        
-        <div id="container">​
+      <h3> Personal Sketches </h3>
+      <div id="images">
+        <img id="muni" src="picz/munipolaroid.jpg" />
+        <img id="ravie" src="picz/ravie4dogs.jpg" />
+        <img id="kahlua" src="picz/kahluasketch.jpg" />
+        <img id="seahorse" src="picz/seahorse.jpg" />
+        <img id="hercules" src="picz/hercules.jpg" />
+        <img id="koi" src="picz/koitattoobnw.jpg" />
+        <img id="daruma" src="picz/daruma.jpg" />
+        <img id="magnetism" src="picz/magnetism.jpg" />
+      </div>
+      </div>
+
+      <div id="slider">
+        <a href="#muni">1</a>
+        <a href="#ravie">2</a>
+        <a href="#kahlua">3</a>
+        <a href="#seahorse">4</a> <br>
+        <a href="#hercules">5</a>
+        <a href="#koi">6</a>
+        <a href="#daruma">7</a>
+        <a href="magnetism">8</a>
+      </div>
+    </div>
+
+    <div class="col-sm-6">     
+      <div id="container">​
         <img src="picz/ideaz11.jpg" data-alt-src="picz/rubikz1.jpg" class="img-responsive" >​<br>
         <img src="picz/ideaz2.jpg" data-alt-src="picz/rubikz2.jpg" class="img-responsive" >​ <br>
         <img src="picz/ideaz3.jpg" data-alt-src="picz/rubikz3.jpg" class="img-responsive">​ <br> <br>
-        <a href=""> <u> Check out my personal Tattoo & Art sketches here! </u> </a>
       </div>​
     </div>
   </div>
 
-  <hr>
+<hr>
     
-  <div footer> 
-    <div class="footer-wrapper">
-     <ul>
-        <li> Contact Me ! </li>
-        <li> LinkedIn: vanessamlin | </li>
-        <li> github: v33lynn | </li>
-        <li> wordpress: | </li>
-      </ul>
-    </div>
-  </footer>
+<div class="footer"> </footer>
 
-</div>
 </body>
 
 </html>
