@@ -1,36 +1,36 @@
 {
     outline-style: dotted red 1px;
-    background-color: 
 }
-
-
 
 body{
 	outline: dotted red 3px
 	}
 
-div.container{
+/*div.container{
 	border: solid blue 2px;
+	align-content: center;
 	}
-	
+	*/
 	div.jumbotron{
 		border: solid black;
 		background: center;
 		text-align: center;
 	    background: url("picz/up_voyage.jpg");
+	    background-position: center;
 	    width: 100%;
 	    height: 100%;
+	    padding: 0 0 0 0;
 	    background-size: cover;
 	    overflow: hidden;
 	}
-		div.jumbotron.img img-responsive{
-			padding-left: 100px;
-			display: right;
+		div.jumbotron.img-responsive {
+			position: center;
+			margin: 0px;
 		}
 
 		div.jumbotron blockquote {
 		    font-family: Georgia, serif;
-		    font-size: 23px;
+		    font-size: 22px;
 		    font-style: italic;
 		    width: 100%;
 		    padding: 0.35em 40px;
@@ -42,6 +42,8 @@ div.container{
 		div.jumbotron h1{
 			font-family: lobster;
 			text-align: center;
+			font-size: 50px;
+			color: white;
 			}
 
 			div.jumbotron h2{
@@ -59,7 +61,7 @@ div.container{
 		}
 
 		blockquote cite {
-		    color: #999999;
+		    color: white;
 		    font-size: 14px;
 		    display: top right;
 		    margin-top: 5px;
@@ -69,27 +71,25 @@ div.container{
 		    content: "\2014 \2009";
 		} 
 
-	body {
-    text-align: center;
-  }
 
-  div.row{
-  	align-items: inline-block;
+  div.row h3{
+  	font-family: lobster;
+  	font-size: 20px;
+  	margin-top: 0px;
+  	color: white;
   }
 
 	#images {
 	  padding-top: 20px;
-	  width: 400px;
-	  height: 450px;
+	  width: 350px;
+	  height: 380px;
 	  overflow: hidden;
 	  position: relative;
-	  
 	  margin: 20px auto;
 	}
 	#images img {
-	  width: 400px;
-	  height: 420px;
-	  
+	  width: 350px;
+	  height: 380px;
 	  position: absolute;
 	  top: 0;
 	  left: -400px;
@@ -103,19 +103,25 @@ div.container{
 	}
 	#images img:target {
 	  left: 0;
-	  z-index: 10;
+	  z-index: 9;
 	  opacity: 1;
 	}
 	#images img:first-child {
 	  left: 0;
 	  opacity: 1;
 	}
+
+	#slider{
+	  align-items: bottom;
+	}
+
 	#slider a {
 	  text-decoration: none;
 	  background: #E3F1FA;
 	  border: 1px solid #C6E4F2;
 	  padding: 4px 6px;
 	  color: #222;
+	  position: left;
 	}
 	#slider a:hover {
 	  background: #C6E4F2;
