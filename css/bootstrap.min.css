@@ -2,9 +2,9 @@
     outline-style: dotted red 1px;
 }
 
-body{
+/*body{
 	outline: dotted red 3px
-	}
+	}*/
 
 /*div.container{
 	border: solid blue 2px;
@@ -25,7 +25,6 @@ body{
 	}
 		div.jumbotron.img-responsive {
 			position: center;
-			margin: 0px;
 		}
 
 		div.jumbotron blockquote {
