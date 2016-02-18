@@ -144,11 +144,6 @@ div.mail h2{
 
 *{ margin: 0; padding: 0;}
 
-body {
-	/*To hide the horizontal scroller appearing during the animation*/
-	overflow: hidden;
-}
-
 #clouds{
 	padding: 100px 0;
 	background: #c9dbe9;
@@ -157,15 +152,12 @@ body {
 	background: -moz-linear-gradient(top, #c9dbe9 0%, #fff 100%);
 }
 
-/*Time to finalise the cloud shape*/
 .cloud {
 	width: 200px; height: 60px;
-	background: #fff;
-	
+	background: #fff;	
 	border-radius: 200px;
 	-moz-border-radius: 200px;
-	-webkit-border-radius: 200px;
-	
+	-webkit-border-radius: 200px;	
 	position: relative; 
 }
 
@@ -190,7 +182,7 @@ body {
 	top: -55px; left: auto; right: 15px;
 }
 
-/*Time to animate*/
+
 .x1 {
 	-webkit-animation: moveclouds 15s linear infinite;
 	-moz-animation: moveclouds 15s linear infinite;

@@ -10,17 +10,20 @@
   -webkit-transform-origin: 50% 50%;
   -moz-transform-origin: 50% 50%;
   transform-origin: 50% 50%;
+}
+
 body {
     text-align: center;
   }
+
 #images {
   width: 400px;
   height: 250px;
   overflow: hidden;
   position: relative;
-  
   margin: 20px auto;
 }
+
 #images img {
   width: 400px;
   height: 250px;
@@ -54,7 +57,6 @@ body {
 }
 #slider a:hover {
   background: #C6E4F2;
-}
 }
 
 .ptr-interacting .ptr-planet {
