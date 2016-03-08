@@ -22,10 +22,11 @@
 	    padding: 0 0 0 0;
 	    background-size: cover;
 	    overflow: hidden;
-	}
+		}
+
 		div.jumbotron.img-responsive {
 			position: center;
-		}
+			}
 
 		div.jumbotron blockquote {
 		    font-family: Georgia, serif;
@@ -36,7 +37,7 @@
 		    line-height: 1.45;
 		    position: left;
 		    color: #383838;
-		}
+			}
 
 		div.jumbotron h1{
 			font-family: lobster;
@@ -78,68 +79,71 @@
   	color: white;
   }
 
-	#images {
-	  padding-top: 20px;
-	  width: 150px;
-	  height: 800px;
-	  overflow: hidden;
-	  position: relative;
-	  margin: 20px auto;
-	}
-	#images img {
-	  width: 350px;
-	  height: 380px;
-	  position: absolute;
-	  top: 0;
-	  left: -400px;
-	  z-index: 1;
-	  opacity: 0;
-	  
-	  transition: all linear 500ms;
-	  -o-transition: all linear 500ms;
-	  -moz-transition: all linear 500ms;
-	  -webkit-transition: all linear 500ms;
-	}
-	#images img:target {
-	  left: 0;
-	  z-index: 9;
-	  opacity: 1;
-	}
-	#images img:first-child {
-	  left: 0;
-	  opacity: 1;
-	}
+/*end of header*/
 
-	#slider{
-	  align-items: bottom;
-	}
+/*------------Personal Sketches------------------*/
 
-	#slider a {
-	  text-decoration: none;
-	  background: #E3F1FA;
-	  border: 1px solid #C6E4F2;
-	  padding: 4px 6px;
-	  color: #222;
-	  position: left;
-	}
-	#slider a:hover {
-	  background: #C6E4F2;
-	}
+#images {
+    width: 400px;
+    height: 250px;
+    overflow: hidden;
+    position: relative;
+
+    margin: 20px auto;
+}
+#images img {
+    width: 400px;
+    height: 250px;
+
+    position: absolute;
+    top: 0;
+    left: -400px;
+    z-index: 1;
+    opacity: 0;
+
+    transition: all linear 500ms;
+    -o-transition: all linear 500ms;
+    -moz-transition: all linear 500ms;
+    -webkit-transition: all linear 500ms;
+}
+#images img:target {
+    left: 0;
+    z-index: 9;
+    opacity: 1;
+}
+#images img:first-child {
+    left: 0;
+}
+#slider a {
+    text-decoration: none;
+    background: #E3F1FA;
+    border: 1px solid #C6E4F2;
+    padding: 4px 6px;
+    color: #222;
+}
+#slider a:hover {
+    background: #C6E4F2;
+}
+
+
+
 
 div.footer {
     width: 100%;
-}
+	}
+
+/*Contact Page */
 
 div.img-circle {
     border-radius: 50%;
-}
+	}
 
 div.mail h2{
 	font-family: lobster;
   	font-size: 40px;
   	margin-top: 0px;
   	color: white;
- }
+ 	}
 
 
 *{ margin: 0; padding: 0;}
@@ -211,7 +215,7 @@ div.mail h2{
 	-webkit-transform: scale(0.8);
 	-moz-transform: scale(0.8);
 	transform: scale(0.8);
-	opacity: 0.6; /*opacity proportional to the size*/
+	opacity: 0.4; /*opacity proportional to the size*/
 	
 	-webkit-animation: moveclouds 20s linear infinite;
 	-moz-animation: moveclouds 20s linear infinite;
