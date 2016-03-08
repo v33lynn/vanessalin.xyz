@@ -22,6 +22,7 @@
 	    padding: 0 0 0 0;
 	    background-size: cover;
 	    overflow: hidden;
+	    display: inline-block;
 		}
 
 		div.jumbotron.img-responsive {
@@ -87,19 +88,20 @@
     width: 400px;
     height: 250px;
     overflow: hidden;
-    position: relative;
+    position: inline;
 
     margin: 20px auto;
 }
 #images img {
     width: 400px;
-    height: 250px;
+    height: 320px;
 
     position: absolute;
     top: 0;
     left: -400px;
     z-index: 1;
     opacity: 0;
+    display: inline-block;
 
     transition: all linear 500ms;
     -o-transition: all linear 500ms;
