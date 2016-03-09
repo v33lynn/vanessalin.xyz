@@ -30,14 +30,14 @@
 			}
 
 		div.jumbotron blockquote {
-		    font-family: Georgia, serif;
+		    font-family: Rockwell, serif;
 		    font-size: 22px;
 		    font-style: italic;
 		    width: 100%;
 		    padding: 0.35em 40px;
 		    line-height: 1.45;
 		    position: left;
-		    color: #383838;
+		    color:#8c96f0;
 			}
 
 		div.jumbotron h1{
@@ -50,6 +50,7 @@
 			div.jumbotron h2{
 			font-family: lobster;
 			text-align: center;
+			color: #C0C0C0;
 			}
 
 		blockquote:before {
