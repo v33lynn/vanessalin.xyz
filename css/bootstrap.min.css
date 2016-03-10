@@ -5,19 +5,18 @@
 /*body{
 	outline: dotted red 3px
 	}*/
-
-/*div.container{
+/*
+div.container{
 	border: solid blue 2px;
 	align-content: center;
-	}
-	*/
+	}*/
+
+
 	div.jumbotron{
-		border: solid black;
+		border: solid black 8px;
 		background: center;
-		text-align: center;
 	    background: url("picz/up_voyage.jpg");
-	    background-position: center;
-	    width: 100%;
+	    width: 80%;
 	    height: 100%;
 	    padding: 0 0 0 0;
 	    background-size: cover;
@@ -25,8 +24,11 @@
 	    display: inline-block;
 		}
 
+	div.container-fluid {
+		border: solid black;
+	}
 		div.jumbotron.img-responsive {
-			position: center;
+			background-size: cover;
 			}
 
 		div.jumbotron blockquote {
@@ -133,8 +135,8 @@ div.footer {
 
 
 
-
 /*Contact Page */
+
 
 div.img-circle {
     border-radius: 60%;
@@ -146,7 +148,6 @@ div.mail h2{
   	margin-top: 0px;
   	color: white;
  	}
-
 
 *{ margin: 0; padding: 0;}
 
