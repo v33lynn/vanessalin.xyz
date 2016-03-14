@@ -95,7 +95,6 @@ div.container{
     z-index: 1;
     opacity: 0;
     display: inline-block;
-
     transition: all linear 500ms;
     -o-transition: all linear 500ms;
     -moz-transition: all linear 500ms;
