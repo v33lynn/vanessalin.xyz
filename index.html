@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title> Vanessa Lin | SF | LA  </title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="js/jquery.planetarium.js"></script>
+  <script src="/js/jquery.bxslider.min.js"></script>
+  <script src="js/bootstrap.js"></script>
+  <link href="/lib/jquery.bxslider.css" rel="stylesheet" />
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/planetarium.css">
+  <link href="http://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+  <script type="text/javascript">
+      $(document).ready(function(){
+        $('#container img').click(function () {
+          var temp = $(this).attr('src');
+          $(this).attr('src', $(this).attr('data-alt-src'));
+          $(this).attr('data-alt-src', temp);
+        });
+      });
+    </script>​
+
+</head>
+
+<body>
+
+<div class="container"> 
+  <div class="jumbotron">
+
+<!-- start of navBar -->
+    <nav class="navbar-inverse">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>                        
+          </button>
+        </div>
+
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav">
+            <li><a class="active">Home</a></li>
+            <li><a href="contactme.html"> Contact Me &nbsp&nbsp<('.'<) </a></li>
+            <li><a href="https://v33lynn.wordpress.com/" target="blank"> WordPress&nbsp&nbsp<( '.' )> </a></li>
+            <li><a href="https://www.linkedin.com/in/vanessamlin" target="blank">LinkedIn&nbsp&nbsp(>'.')> </a></li>
+            <li><a href="https://github.com/v33lynn" target="blank">GitHub&nbsp&nbsp<( '.' )> </a></li> 
+          </ul>
+        </div>
+      </div>
+
+          <style>
+            ul {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+                background-color: #202020;
+                width: 100%;
+                text-align: center;
+                font-family: lobster;
+                font-size: 16px;
+                }
+            li {
+                float: left;
+                }
+            li a {
+                display: inline-flex;
+                color: white;
+                text-align: center;
+                padding: 10px 12px;
+                text-decoration: none;
+                }
+            li a:hover:not(.active) {
+                background-color: white;
+                }
+            .active {
+                background-color: #B22222;
+                }
+            </style>
+    </nav>
+<!-- end of navBar -->
+
+
+    <img src="picz/up_voyage1.jpg" alt="upvoyage" class="img-responsive">
+    <hr>
+    <h1> Vanessa Lin | Web Developer </h1> 
+    <h2> SF | LA </h2> 
+
+   <div class="earth planet" data-ptr-autospin="2600ms" data-ptr-float data-ptr-glow="0 0 50px #fff" > </div>
+
+     <script type="text/javascript">
+       $(document).ready(function() {
+        $(".planet").planetarium({
+            autospin: "1000ms", 
+            angle: "20deg",   
+            glow: "rgba(255, 255, 255, 0.34902) 0px 0px 50px, inset 33px 20px 50px rgba(0,0,0,0.5)", 
+            pattern: "picz/texture-earth.jpg", 
+            size: "100x100",
+            float: true,
+            space: "body",
+            ring: false, 
+            ringColor: "#fff",
+            ringAngle: "20deg",
+            });
+          });
+    </script>
+
+    <blockquote> <i> The world only exists in your eyes. You can make it as big or as small as you want. </i> <cite> 
+    -F.Scott Fitzgerald </cite> </blockquote>
+
+  <div class="images">
+    <div class="col-sm-6">
+      <h2> Sketches </h2>
+
+      <ul class="img-thumbnail" >
+
+        <li><img src="picz/munipolaroid.jpg" title="Muni Madness" /></li>        
+        <!-- <li><img src="picz/seahorse.jpg"></li> -->
+        <!-- <li><img src="picz/koitattoobnw.jpg"></li>
+        <li><img src="picz/kahlua.JPG"></li>
+        <li><img src="picz/hercules.JPG"></li>
+        <li><img src="picz/daruma.jpg"></li>
+        <li><img src="picz/magnetism.jpg"></li>
+        <li><img src="picz/chess.JPG"></li>
+        <li><img src="picz/inked.jpg"></li>
+        <li><img src="picz/chargerbw.jpg"></li>
+        <li><img src="picz/loveonrocks.JPG"></li> -->
+      </ul>
+  
+        <div id="slider">
+          <a href="#muni">3</a>
+          <!-- <a href="#seahorse">1</a>
+          <a href="#ravie">2</a>
+          <a href="#koi">4</a>
+          <a href="#kahlua">5</a>
+          <a href="#hercules">6</a>
+          <a href="#daruma">7</a>
+          <a href="#magnetism">8</a>
+          <a href="#chess">9</a>
+          <a href="#inked">10</a>
+          <a href="#charger">11</a>
+          <a href="#rox">12</a> -->
+      </div>
+    
+    </div>
+   </div>
+    <div class="col-sm-6">     
+      <div id="container" max-length=80%>​
+        <img src="picz/ideaz11.jpg" data-alt-src="picz/rubikz1.jpg" class="img-responsive" >​<br>
+        <img src="picz/ideaz2.jpg" data-alt-src="picz/rubikz2.jpg" class="img-responsive" >​ <br>
+        <img src="picz/ideaz3.jpg" data-alt-src="picz/rubikz3.jpg" class="img-responsive">​ <br> <br>
+      </div>​
+    </div>
+</div>
+<div class="footer"> </footer> </div>
+<hr>
+    
+</body>
+</html>
